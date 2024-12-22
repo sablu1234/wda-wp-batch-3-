@@ -286,3 +286,120 @@ Stack trace:
 #3 {main}
   thrown in C:\laragon\www\wda-wp-batch-3-\wp-admin\includes\template.php on line 1456
 [19-Dec-2024 16:34:29 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 3
+[19-Dec-2024 16:55:16 UTC] PHP Warning:  require_once(C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includeslib/CMB2/CMB2-develop/init.php): Failed to open stream: No such file or directory in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 21
+[19-Dec-2024 16:55:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includeslib/CMB2/CMB2-develop/init.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php:21
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(97): AB_Three\Post_Type->__construct()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(30): Academy_Batch_Three->load_classes()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(42): Academy_Batch_Three->__construct()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(128): Academy_Batch_Three::get_instance()
+#4 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 21
+[19-Dec-2024 16:57:17 UTC] PHP Warning:  require_once(C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includeslib/CMB2/CMB2-develop/init.php): Failed to open stream: No such file or directory in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 21
+[19-Dec-2024 16:57:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includeslib/CMB2/CMB2-develop/init.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php:21
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(97): AB_Three\Post_Type->__construct()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(30): Academy_Batch_Three->load_classes()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(42): Academy_Batch_Three->__construct()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(128): Academy_Batch_Three::get_instance()
+#4 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 21
+[19-Dec-2024 17:38:34 UTC] PHP Warning:  Undefined array key "type" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\includes\CMB2_Hookup_Field.php on line 50
+[19-Dec-2024 17:39:08 UTC] PHP Warning:  Undefined array key "type" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\includes\CMB2_Hookup_Field.php on line 50
+[19-Dec-2024 17:39:08 UTC] PHP Warning:  Undefined array key "type" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\includes\CMB2_Hookup_Field.php on line 50
+[19-Dec-2024 17:39:08 UTC] PHP Warning:  Undefined array key "type" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\includes\CMB2.php on line 456
+[19-Dec-2024 17:39:08 UTC] PHP Warning:  Undefined array key "type" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\includes\CMB2.php on line 463
+[19-Dec-2024 17:39:08 UTC] PHP Warning:  Undefined array key "type" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\includes\CMB2_Field.php on line 1371
+[19-Dec-2024 17:39:45 UTC] PHP Warning:  Undefined array key "type" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\includes\CMB2_Hookup_Field.php on line 50
+[19-Dec-2024 17:40:10 UTC] PHP Warning:  Undefined array key "type" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\includes\CMB2_Hookup_Field.php on line 50
+[20-Dec-2024 03:55:49 UTC] Automatic updates starting...
+[20-Dec-2024 03:55:50 UTC]   Automatic plugin updates starting...
+[20-Dec-2024 03:55:50 UTC]   Automatic plugin updates complete.
+[20-Dec-2024 03:55:52 UTC]   Automatic theme updates starting...
+[20-Dec-2024 03:55:52 UTC]   Automatic theme updates complete.
+[20-Dec-2024 03:55:52 UTC] Automatic updates complete.
+[20-Dec-2024 04:23:17 UTC] PHP Warning:  Undefined variable $this is another title in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 93
+[20-Dec-2024 05:42:40 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php:70
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): AB_Three\Post_Type->the_content('<p>Auto Post Co...')
+#1 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(205): WP_Hook->apply_filters('<p>Auto Post Co...', Array)
+#2 C:\laragon\www\wda-wp-batch-3-\wp-includes\blocks\post-content.php(50): apply_filters('the_content', '<p>Auto Post Co...')
+#3 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-block.php(519): render_block_core_post_content(Array, '<p>Auto Post Co...', Object(WP_Block))
+#4 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-block.php(499): WP_Block->render()
+#5 C:\laragon\www\wda-wp-batch-3-\wp-includes\blocks.php(2061): WP_Block->render()
+#6 C:\laragon\www\wda-wp-batch-3-\wp-includes\blocks.php(2113): render_block(Array)
+#7 C:\laragon\www\wda-wp-batch-3-\wp-includes\block-template.php(260): do_blocks('<!-- wp:templat...')
+#8 C:\laragon\www\wda-wp-batch-3-\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#9 C:\laragon\www\wda-wp-batch-3-\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#10 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#12 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 70
+[20-Dec-2024 05:43:21 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php:70
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): AB_Three\Post_Type->the_content('<p>Auto Post Co...')
+#1 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(205): WP_Hook->apply_filters('<p>Auto Post Co...', Array)
+#2 C:\laragon\www\wda-wp-batch-3-\wp-includes\blocks\post-content.php(50): apply_filters('the_content', '<p>Auto Post Co...')
+#3 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-block.php(519): render_block_core_post_content(Array, '<p>Auto Post Co...', Object(WP_Block))
+#4 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-block.php(499): WP_Block->render()
+#5 C:\laragon\www\wda-wp-batch-3-\wp-includes\blocks.php(2061): WP_Block->render()
+#6 C:\laragon\www\wda-wp-batch-3-\wp-includes\blocks.php(2113): render_block(Array)
+#7 C:\laragon\www\wda-wp-batch-3-\wp-includes\block-template.php(260): do_blocks('<!-- wp:templat...')
+#8 C:\laragon\www\wda-wp-batch-3-\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#9 C:\laragon\www\wda-wp-batch-3-\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#10 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#12 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 70
+[20-Dec-2024 06:36:22 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 90
+[20-Dec-2024 06:36:22 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 90
+[20-Dec-2024 06:37:33 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 90
+[20-Dec-2024 06:37:33 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 90
+[20-Dec-2024 06:37:35 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 90
+[20-Dec-2024 06:37:35 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 90
+[20-Dec-2024 06:38:55 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 90
+[20-Dec-2024 06:38:55 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 90
+[20-Dec-2024 06:39:29 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 90
+[20-Dec-2024 06:39:29 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 90
+[20-Dec-2024 06:45:21 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 103
+[20-Dec-2024 06:45:21 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 103
+[20-Dec-2024 06:58:21 UTC] Automatic updates starting...
+[20-Dec-2024 06:58:22 UTC]   Automatic plugin updates starting...
+[20-Dec-2024 06:58:22 UTC]   Automatic plugin updates complete.
+[20-Dec-2024 06:58:23 UTC]   Automatic theme updates starting...
+[20-Dec-2024 06:58:23 UTC]   Automatic theme updates complete.
+[20-Dec-2024 06:58:23 UTC] Automatic updates complete.
+[20-Dec-2024 15:52:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 24 and at least 2 expected in C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php(24): add_action('')
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(97): AB_Three\Post_Type->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(30): Academy_Batch_Three->load_classes()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(42): Academy_Batch_Three->__construct()
+#4 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(128): Academy_Batch_Three::get_instance()
+#5 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#8 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#9 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php on line 441
+[21-Dec-2024 13:52:35 UTC] Automatic updates starting...
+[21-Dec-2024 13:52:36 UTC]   Automatic plugin updates starting...
+[21-Dec-2024 13:52:36 UTC]   Automatic plugin updates complete.
+[21-Dec-2024 13:52:37 UTC]   Automatic theme updates starting...
+[21-Dec-2024 13:52:37 UTC]   Automatic theme updates complete.
+[21-Dec-2024 13:52:37 UTC] Automatic updates complete.
+[21-Dec-2024 16:00:40 UTC] PHP Warning:  Undefined array key "another_title_second" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 90
+[22-Dec-2024 14:45:01 UTC] Automatic updates starting...
+[22-Dec-2024 14:45:03 UTC]   Automatic plugin updates starting...
+[22-Dec-2024 14:45:03 UTC]   Automatic plugin updates complete.
+[22-Dec-2024 14:45:04 UTC]   Automatic theme updates starting...
+[22-Dec-2024 14:45:04 UTC]   Automatic theme updates complete.
+[22-Dec-2024 14:45:04 UTC] Automatic updates complete.
