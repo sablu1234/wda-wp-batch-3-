@@ -403,3 +403,301 @@ Stack trace:
 [22-Dec-2024 14:45:04 UTC]   Automatic theme updates starting...
 [22-Dec-2024 14:45:04 UTC]   Automatic theme updates complete.
 [22-Dec-2024 14:45:04 UTC] Automatic updates complete.
+[22-Dec-2024 16:18:23 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class AB_Three\Book_Reader does not have a method "cmb2_admin_init" in C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\bootstrap.php(26): do_action('cmb2_admin_init')
+#3 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\init.php(165): cmb2_bootstrap()
+#4 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): CMB2_Bootstrap_2120_Develop->include_cmb('')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(700): do_action('init')
+#8 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#9 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#10 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#11 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php on line 324
+[22-Dec-2024 16:19:19 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class AB_Three\Book_Reader does not have a method "cmb2_admin_init" in C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\bootstrap.php(26): do_action('cmb2_admin_init')
+#3 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\init.php(165): cmb2_bootstrap()
+#4 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): CMB2_Bootstrap_2120_Develop->include_cmb('')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(700): do_action('init')
+#8 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#9 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#10 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#11 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php on line 324
+[22-Dec-2024 16:19:24 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class AB_Three\Book_Reader does not have a method "cmb2_admin_init" in C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\bootstrap.php(26): do_action('cmb2_admin_init')
+#3 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\init.php(165): cmb2_bootstrap()
+#4 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): CMB2_Bootstrap_2120_Develop->include_cmb('')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(700): do_action('init')
+#8 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#9 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#10 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#11 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php on line 324
+[22-Dec-2024 16:23:21 UTC] PHP Warning:  Undefined array key "type" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\includes\CMB2_Hookup_Field.php on line 50
+[22-Dec-2024 16:23:26 UTC] PHP Warning:  Undefined array key "type" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\includes\CMB2_Hookup_Field.php on line 50
+[22-Dec-2024 16:41:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\http.php on line 521
+[22-Dec-2024 16:41:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\http.php on line 522
+[22-Dec-2024 16:41:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php on line 27
+[22-Dec-2024 16:41:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php on line 28
+[22-Dec-2024 16:41:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6995
+[22-Dec-2024 16:41:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\includes\misc.php on line 1438
+[22-Dec-2024 16:41:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 7108
+[22-Dec-2024 16:41:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\includes\misc.php on line 1438
+[22-Dec-2024 16:41:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 7108
+[22-Dec-2024 16:41:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-header.php on line 9
+[22-Dec-2024 16:42:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\http.php on line 521
+[22-Dec-2024 16:42:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\http.php on line 522
+[22-Dec-2024 16:42:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php on line 27
+[22-Dec-2024 16:42:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php on line 28
+[22-Dec-2024 16:42:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6995
+[22-Dec-2024 16:42:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\includes\misc.php on line 1438
+[22-Dec-2024 16:42:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 7108
+[22-Dec-2024 16:42:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\includes\misc.php on line 1438
+[22-Dec-2024 16:42:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 7108
+[22-Dec-2024 16:42:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-header.php on line 9
+[22-Dec-2024 16:42:18 UTC] PHP Parse error:  syntax error, unexpected token "," in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php on line 49
+[22-Dec-2024 16:42:20 UTC] PHP Parse error:  syntax error, unexpected token "," in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php on line 49
+[22-Dec-2024 16:42:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\includes\misc.php on line 1438
+[22-Dec-2024 16:42:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 7108
+[22-Dec-2024 16:42:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-header.php on line 9
+[22-Dec-2024 16:43:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\http.php on line 521
+[22-Dec-2024 16:43:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\http.php on line 522
+[22-Dec-2024 16:43:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php on line 27
+[22-Dec-2024 16:43:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php on line 28
+[22-Dec-2024 16:43:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6995
+[22-Dec-2024 16:43:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\includes\misc.php on line 1438
+[22-Dec-2024 16:43:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 7108
+[22-Dec-2024 16:43:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\http.php on line 521
+[22-Dec-2024 16:43:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\http.php on line 522
+[22-Dec-2024 16:43:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php on line 27
+[22-Dec-2024 16:43:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php on line 28
+[22-Dec-2024 16:43:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6995
+[22-Dec-2024 16:43:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\includes\misc.php on line 1438
+[22-Dec-2024 16:43:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 7108
+[22-Dec-2024 16:44:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\http.php on line 521
+[22-Dec-2024 16:44:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\http.php on line 522
+[22-Dec-2024 16:44:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php on line 27
+[22-Dec-2024 16:44:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php on line 28
+[22-Dec-2024 16:44:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6995
+[22-Dec-2024 16:44:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\includes\misc.php on line 1438
+[22-Dec-2024 16:44:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 7108
+[22-Dec-2024 16:44:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\includes\misc.php on line 1438
+[22-Dec-2024 16:44:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 7108
+[22-Dec-2024 16:44:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53) in C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-header.php on line 9
+[22-Dec-2024 16:45:12 UTC] PHP Warning:  Undefined array key "post_title" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php on line 53
+[22-Dec-2024 16:45:24 UTC] PHP Warning:  Undefined array key "post_title" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php on line 53
+[22-Dec-2024 16:47:48 UTC] PHP Notice:  Function map_meta_cap was called <strong>incorrectly</strong>. The post type <code>chapter</code> is not registered, so it may not be reliable to check the capability <code>edit_post</code> against a post of that type. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[22-Dec-2024 16:52:43 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): AB_Three\Book_Reader->cmb2_admin_init('')
+#1 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\bootstrap.php(26): do_action('cmb2_admin_init')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\init.php(165): cmb2_bootstrap()
+#5 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): CMB2_Bootstrap_2120_Develop->include_cmb('')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(700): do_action('init')
+#9 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#10 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin.php(34): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\wda-wp-batch-3-\wp-admin\options-permalink.php(10): require_once('C:\\laragon\\www\\...')
+#13 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php on line 53
+[22-Dec-2024 16:52:50 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): AB_Three\Book_Reader->cmb2_admin_init('')
+#1 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\bootstrap.php(26): do_action('cmb2_admin_init')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\init.php(165): cmb2_bootstrap()
+#5 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): CMB2_Bootstrap_2120_Develop->include_cmb('')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(700): do_action('init')
+#9 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#10 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin.php(34): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\wda-wp-batch-3-\wp-admin\options-permalink.php(10): require_once('C:\\laragon\\www\\...')
+#13 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php on line 53
+[22-Dec-2024 16:53:47 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): AB_Three\Book_Reader->cmb2_admin_init('')
+#1 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\bootstrap.php(26): do_action('cmb2_admin_init')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\init.php(165): cmb2_bootstrap()
+#5 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): CMB2_Bootstrap_2120_Develop->include_cmb('')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(700): do_action('init')
+#9 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#10 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin.php(34): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\wda-wp-batch-3-\wp-admin\options-permalink.php(10): require_once('C:\\laragon\\www\\...')
+#13 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php on line 53
+[22-Dec-2024 16:53:50 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): AB_Three\Book_Reader->cmb2_admin_init('')
+#1 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\bootstrap.php(26): do_action('cmb2_admin_init')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\init.php(165): cmb2_bootstrap()
+#5 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): CMB2_Bootstrap_2120_Develop->include_cmb('')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(700): do_action('init')
+#9 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#10 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin.php(34): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\wda-wp-batch-3-\wp-admin\options-permalink.php(10): require_once('C:\\laragon\\www\\...')
+#13 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php on line 53
+[22-Dec-2024 16:53:50 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): AB_Three\Book_Reader->cmb2_admin_init('')
+#1 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\bootstrap.php(26): do_action('cmb2_admin_init')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\init.php(165): cmb2_bootstrap()
+#5 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): CMB2_Bootstrap_2120_Develop->include_cmb('')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(700): do_action('init')
+#9 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#10 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin.php(34): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\wda-wp-batch-3-\wp-admin\options-permalink.php(10): require_once('C:\\laragon\\www\\...')
+#13 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php on line 53
+[22-Dec-2024 16:53:51 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): AB_Three\Book_Reader->cmb2_admin_init('')
+#1 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\bootstrap.php(26): do_action('cmb2_admin_init')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\init.php(165): cmb2_bootstrap()
+#5 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): CMB2_Bootstrap_2120_Develop->include_cmb('')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(700): do_action('init')
+#9 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#10 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin.php(34): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\wda-wp-batch-3-\wp-admin\options-permalink.php(10): require_once('C:\\laragon\\www\\...')
+#13 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php on line 53
+[22-Dec-2024 16:53:51 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): AB_Three\Book_Reader->cmb2_admin_init('')
+#1 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\bootstrap.php(26): do_action('cmb2_admin_init')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\init.php(165): cmb2_bootstrap()
+#5 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): CMB2_Bootstrap_2120_Develop->include_cmb('')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(700): do_action('init')
+#9 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#10 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin.php(34): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\wda-wp-batch-3-\wp-admin\options-permalink.php(10): require_once('C:\\laragon\\www\\...')
+#13 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php on line 53
+[22-Dec-2024 16:53:57 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php:53
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): AB_Three\Book_Reader->cmb2_admin_init('')
+#1 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\bootstrap.php(26): do_action('cmb2_admin_init')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\lib\CMB2\init.php(165): cmb2_bootstrap()
+#5 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): CMB2_Bootstrap_2120_Develop->include_cmb('')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(700): do_action('init')
+#9 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#10 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#12 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Book_Reader.php on line 53
+[22-Dec-2024 17:31:44 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\wda-wp-batch-3-\wp-includes\formatting.php on line 5701
+[23-Dec-2024 14:38:14 UTC] Cron reschedule event error for hook: wp_version_check, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[23-Dec-2024 14:38:19 UTC] Automatic updates starting...
+[23-Dec-2024 14:38:20 UTC]   Automatic plugin updates starting...
+[23-Dec-2024 14:38:20 UTC]   Automatic plugin updates complete.
+[23-Dec-2024 14:38:20 UTC]   Automatic theme updates starting...
+[23-Dec-2024 14:38:20 UTC]   Automatic theme updates complete.
+[23-Dec-2024 14:38:20 UTC] Automatic updates complete.
+[23-Dec-2024 14:39:53 UTC] PHP Fatal error:  Uncaught Error: Class "AB_Three\Book_Reader" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php:99
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(30): Academy_Batch_Three->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(42): Academy_Batch_Three->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(130): Academy_Batch_Three::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php on line 99
+[23-Dec-2024 14:40:13 UTC] PHP Fatal error:  Uncaught Error: Class "AB_Three\Post_Type" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php:97
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(30): Academy_Batch_Three->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(42): Academy_Batch_Three->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(130): Academy_Batch_Three::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php on line 97
+[23-Dec-2024 14:40:14 UTC] PHP Fatal error:  Uncaught Error: Class "AB_Three\Post_Type" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php:97
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(30): Academy_Batch_Three->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(42): Academy_Batch_Three->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(130): Academy_Batch_Three::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin.php(34): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\wp-admin\edit.php(10): require_once('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php on line 97
+[23-Dec-2024 14:40:15 UTC] PHP Fatal error:  Uncaught Error: Class "AB_Three\Post_Type" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php:97
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(30): Academy_Batch_Three->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(42): Academy_Batch_Three->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(130): Academy_Batch_Three::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php on line 97
+[23-Dec-2024 14:40:29 UTC] Automatic updates starting...
+[23-Dec-2024 14:40:30 UTC]   Automatic plugin updates starting...
+[23-Dec-2024 14:40:30 UTC]   Automatic plugin updates complete.
+[23-Dec-2024 14:40:30 UTC]   Automatic theme updates starting...
+[23-Dec-2024 14:40:30 UTC]   Automatic theme updates complete.
+[23-Dec-2024 14:40:30 UTC] Automatic updates complete.
+[23-Dec-2024 14:43:37 UTC] PHP Warning:  Undefined array key "another_title_second" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 88
+[23-Dec-2024 14:45:38 UTC] PHP Warning:  Undefined array key "another_title_second" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 88
+[23-Dec-2024 14:46:18 UTC] PHP Warning:  Undefined array key "another_title_second" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 88
+[23-Dec-2024 14:48:09 UTC] PHP Notice:  Function map_meta_cap was called <strong>incorrectly</strong>. The post type <code>book</code> is not registered, so it may not be reliable to check the capability <code>edit_post</code> against a post of that type. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
