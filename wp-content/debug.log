@@ -701,3 +701,59 @@ Stack trace:
 [23-Dec-2024 14:45:38 UTC] PHP Warning:  Undefined array key "another_title_second" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 88
 [23-Dec-2024 14:46:18 UTC] PHP Warning:  Undefined array key "another_title_second" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 88
 [23-Dec-2024 14:48:09 UTC] PHP Notice:  Function map_meta_cap was called <strong>incorrectly</strong>. The post type <code>book</code> is not registered, so it may not be reliable to check the capability <code>edit_post</code> against a post of that type. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[23-Dec-2024 15:31:22 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-object-cache.php on line 407
+[23-Dec-2024 15:32:40 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-object-cache.php on line 407
+[23-Dec-2024 15:33:11 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-object-cache.php on line 407
+[23-Dec-2024 15:34:22 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 16384 bytes) in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 32
+[23-Dec-2024 15:36:07 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 16384 bytes) in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 32
+[23-Dec-2024 15:45:25 UTC] PHP Warning:  Undefined variable $post_id in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 40
+[23-Dec-2024 15:45:25 UTC] PHP Fatal error:  Uncaught TypeError: str_contains(): Argument #1 ($haystack) must be of type string, array given in C:\laragon\www\wda-wp-batch-3-\wp-includes\shortcodes.php:246
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-includes\shortcodes.php(246): str_contains(Array, '[')
+#1 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): do_shortcode(Array)
+#2 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#3 C:\laragon\www\wda-wp-batch-3-\wp-includes\blocks\post-content.php(50): apply_filters('the_content', 'Est laboriosam ...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-block.php(519): render_block_core_post_content(Array, 'Est laboriosam ...', Object(WP_Block))
+#5 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-block.php(499): WP_Block->render()
+#6 C:\laragon\www\wda-wp-batch-3-\wp-includes\blocks.php(2061): WP_Block->render()
+#7 C:\laragon\www\wda-wp-batch-3-\wp-includes\blocks.php(2113): render_block(Array)
+#8 C:\laragon\www\wda-wp-batch-3-\wp-includes\block-template.php(260): do_blocks('<!-- wp:templat...')
+#9 C:\laragon\www\wda-wp-batch-3-\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#10 C:\laragon\www\wda-wp-batch-3-\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#11 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#13 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-includes\shortcodes.php on line 246
+[23-Dec-2024 16:22:23 UTC] PHP Fatal error:  Uncaught Error: Class "AB_Three\WP_Query" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php:38
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): AB_Three\RelatedPosts->append_related_posts('\n<p>doloribus</...')
+#1 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(205): WP_Hook->apply_filters('\n<p>doloribus</...', Array)
+#2 C:\laragon\www\wda-wp-batch-3-\wp-includes\blocks\post-content.php(50): apply_filters('the_content', '<!-- wp:paragra...')
+#3 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-block.php(519): render_block_core_post_content(Array, '<!-- wp:paragra...', Object(WP_Block))
+#4 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-block.php(499): WP_Block->render()
+#5 C:\laragon\www\wda-wp-batch-3-\wp-includes\blocks.php(2061): WP_Block->render()
+#6 C:\laragon\www\wda-wp-batch-3-\wp-includes\blocks.php(2113): render_block(Array)
+#7 C:\laragon\www\wda-wp-batch-3-\wp-includes\block-template.php(260): do_blocks('<!-- wp:templat...')
+#8 C:\laragon\www\wda-wp-batch-3-\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#9 C:\laragon\www\wda-wp-batch-3-\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#10 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#12 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 38
+[23-Dec-2024 16:22:23 UTC] PHP Fatal error:  Uncaught Error: Class "AB_Three\WP_Query" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php:38
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(324): AB_Three\RelatedPosts->append_related_posts('\n<p>doloribus</...')
+#1 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(205): WP_Hook->apply_filters('\n<p>doloribus</...', Array)
+#2 C:\laragon\www\wda-wp-batch-3-\wp-includes\blocks\post-content.php(50): apply_filters('the_content', '<!-- wp:paragra...')
+#3 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-block.php(519): render_block_core_post_content(Array, '<!-- wp:paragra...', Object(WP_Block))
+#4 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-block.php(499): WP_Block->render()
+#5 C:\laragon\www\wda-wp-batch-3-\wp-includes\blocks.php(2061): WP_Block->render()
+#6 C:\laragon\www\wda-wp-batch-3-\wp-includes\blocks.php(2113): render_block(Array)
+#7 C:\laragon\www\wda-wp-batch-3-\wp-includes\block-template.php(260): do_blocks('<!-- wp:templat...')
+#8 C:\laragon\www\wda-wp-batch-3-\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#9 C:\laragon\www\wda-wp-batch-3-\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#10 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#11 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#12 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 38
+[23-Dec-2024 16:56:01 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 2
