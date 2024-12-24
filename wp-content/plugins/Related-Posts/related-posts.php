@@ -16,75 +16,35 @@
 */
 
 
-
-namespace AB_Three;
-
-class Relatd_Posts {
-
-    public function __construct() {
-        // Hook to add content below single post content
-        add_filter('the_content', [$this, 'append_related_posts']);
-    }
-
-    public function append_related_posts($content) {
-        if (is_single() && get_post_type() === 'post') {
-            global $post;
-
-            // Query arguments
-            $args = [
-                'post_type'      => 'post',
-                'posts_per_page' => 5,
-                'post__not_in'   => [$post->ID],
-                'orderby'        => 'rand',
-                'tax_query'      => [
-                    [
-                        'taxonomy' => 'category',
-                        'field'    => 'term_id',
-                        'terms'    => wp_get_post_categories($post->ID),
-                    ],
-                ],
-            ];
-
-            // Get related posts
-            $related_posts = new \WP_Query($args);
-
-            if (!empty($related_posts)) {
-                ob_start();
-            
-
-                if ($related_posts->have_posts()) {
-                    while ($related_posts->have_posts()) :
-                        $related_posts->the_post();
-                        $post_title = get_the_title();
-                        $post_link = get_the_permalink();
-                        $post_excerpt = wp_trim_words(get_the_content(), 10);
-                        $post_image = get_the_post_thumbnail(get_the_ID(), 'thumbnail');
-                        ?>
-
-                        <li>
-                        <?php echo '<a href="'.get_the_permalink().'">.'.$post_image.'</a>'.'<br>' ?>
-                        <?php echo '<a href="'.get_the_permalink().'">.'.$post_title.'</a>'.'<br><br>' ?>
-                        <?php echo '<a href="'.get_the_permalink().'">'.$post_excerpt.'</a>'.'<br><br><br>';?>
-                        </li>
-                    
-                        
-                    
-                    <?php
-                    endwhile;
-                    
-                }
-
-                echo '</ul>';
-                echo '</div>';
-
-                $content .= ob_get_clean();
-            }
-        }
-        return $content;
-    }
-
-  
+if( ! defined( 'ABSPATH' )){
+    return;
 }
 
-// Initialize the plugin
-new Relatd_Posts();
+class hasan_related_post{
+    private static $instance;
+//this is constructor
+    private function construct (){
+        $this->define_constants();
+        $this->load_classe();
+    }
+
+    public static function get_instance (){
+        if( self::$instance ) {
+            return self::$instance;
+        }
+
+        self::$instance = new self();
+
+        return self::$instance;
+    }
+//function define_constants
+    private function define_constants(){
+        define( 'HASAN_RELATIVE_PLUGIN_PATH', plugin_dir_path( __FILE__ )  );
+    }
+    //for class loaded
+    private function load_classe () {
+        require_once HASAN_RELATIVE_PLUGIN_PATH . 'includes/related-posts.php';
+    }
+}
+
+hasan_related_post::get_instance();
