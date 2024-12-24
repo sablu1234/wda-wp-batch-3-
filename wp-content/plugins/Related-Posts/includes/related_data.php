@@ -10,13 +10,12 @@ class related_post{
     public function the_content () {
         if (is_single() && get_post_type()==='post' ){
             global $post;
-            //query aeguments
+            //query arguments
 
             $args =[ 
                 'post_type' => 'post',
                 'posts_per_page' => 5,
                'post__not_in'   => [$post->ID],
-               'orderby'   => 'rand',
                'orderby'   => 'rand',
                'tax_query'   => [
                 [
