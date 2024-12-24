@@ -29,7 +29,7 @@ class related_post{
              
              //get related posts
 
-             $related_posts = new \WP_Query();
+             $related_posts = new \WP_Query( $args );
         }
     }
 }
