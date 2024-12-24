@@ -55,7 +55,6 @@ class Related_Post {
 
                 $content .= ob_get_clean();
 
-                wp_reset_postdata();
             }
         }
 
