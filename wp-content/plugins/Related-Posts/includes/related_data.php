@@ -1,63 +1,58 @@
 <?php
-namespace HASAN_RP;
+namespace HASAN_RELATED_POST;
 
-class Related_Post {
+class related_Post {
 
-
-    public function __construct() {
-        add_filter( 'the_content', [ $this, 'append_related_posts' ] );
+    public function __construct()
+    {
+        add_filter('the_content', array($this,'the_content'));
+        add_action( 'wp_enqueue_scripts', [ $this, 'enqueue_styles' ] );
     }
 
-    public function append_related_posts( $content ) {
-        if ( is_single() && get_post_type() === 'post' ) {
-            global $post;
+    public function the_content($content){
+        global $post;
+        $args=array(
+            'post_type' => 'post',
+            'posts_per_page' =>5,
+            'post__not_in' =>array($post->ID),
+            'orderby' =>'rand',
+            'tax_query' =>array(
+                array(
+                    'taxonomy' => 'category',
+                    'field' => 'term_id',
+                    'terms' => wp_get_post_categories($post->ID),
+                )
+            ),
 
-            $args = [
-                'post_type'      => 'post',
-                'posts_per_page' => 5,
-                'post__not_in'   => [ $post->ID ],
-                'orderby'        => 'rand',
-                'tax_query'      => [
-                    [
-                        'taxonomy' => 'category',
-                        'field'    => 'term_id',
-                        'terms'    => wp_get_post_categories( $post->ID ),
-                    ],
-                ],
-            ];
+        );
 
-            $related_posts = new \WP_Query( $args );
+        $related_post = new \WP_Query($args);
 
-            if ( $related_posts->have_posts() ) {
-                ob_start();
+        if($related_post->have_posts()){
+            ob_start();
+            while($related_post->have_posts()){
+                $related_post->the_post();
 
-                echo '<div class="related-posts">';
-                echo '<h3>Related Posts</h3>';
-                echo '<ul>';
-
-                while ( $related_posts->have_posts() ) {
-                    $related_posts->the_post();
-
-                    $post_title = get_the_title();
-                    $post_link = get_permalink();
-                    $post_image = get_the_post_thumbnail( get_the_ID(), 'thumbnail' );
-
-                    echo '<li>';
-                    if ( $post_image ) {
-                        echo '<a href="' . esc_url( $post_link ) . '">' . $post_image . '</a>';
-                    }
-                    echo '<a href="' . esc_url( $post_link ) . '">' . esc_html( $post_title ) . '</a>';
-                    echo '</li>';
-                }
-
-                echo '</ul>';
-                echo '</div>';
-
-                $content .= ob_get_clean();
-
+               echo '<div class ="related-posts-wrapper">';
+               echo '<a href="'.get_permalink().'">'.get_the_post_thumbnail().'</a>';
+               echo '<p>'.get_the_title().'</p>';
+               echo '<p>'.wp_trim_words(get_the_content(),10,'.....').'</p>';
+               echo '</div>';
             }
+            $content .=ob_get_clean();
         }
-
+        wp_reset_postdata();
         return $content;
     }
+
+    public function enqueue_styles() {
+        // Enqueue your plugin's CSS file
+        wp_enqueue_style(
+            'related-posts-style', // Handle
+            plugin_dir_url( __FILE__ ) . 'assets/style.css', // Path to the CSS file
+            [], // Dependencies
+            '1.0.0' // Version
+        );
+    }
+
 }

@@ -823,3 +823,150 @@ Stack trace:
 [24-Dec-2024 16:52:44 UTC] PHP Parse error:  Unclosed '{' on line 14 does not match ')' in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\includes\related_data.php on line 33
 [24-Dec-2024 16:54:14 UTC] PHP Parse error:  Unclosed '{' on line 14 does not match ')' in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\includes\related_data.php on line 33
 [24-Dec-2024 16:54:15 UTC] PHP Parse error:  Unclosed '{' on line 14 does not match ')' in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\includes\related_data.php on line 33
+[25-Dec-2024 00:10:29 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 251674624 bytes) in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\includes\related_data.php on line 58
+[25-Dec-2024 00:19:36 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 251674624 bytes) in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\includes\related_data.php on line 58
+[25-Dec-2024 00:25:12 UTC] PHP Warning:  require_once(C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts/includes/related-data.php): Failed to open stream: No such file or directory in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 55
+[25-Dec-2024 00:25:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts/includes/related-data.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php:55
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(32): Hasan_Related_Post->load_classe()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(40): Hasan_Related_Post->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(60): Hasan_Related_Post::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 55
+[25-Dec-2024 00:25:13 UTC] PHP Warning:  require_once(C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts/includes/related-data.php): Failed to open stream: No such file or directory in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 55
+[25-Dec-2024 00:25:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts/includes/related-data.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php:55
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(32): Hasan_Related_Post->load_classe()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(40): Hasan_Related_Post->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(60): Hasan_Related_Post::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 55
+[25-Dec-2024 00:26:25 UTC] PHP Warning:  require_once(C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts/includes/related-data.php): Failed to open stream: No such file or directory in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 55
+[25-Dec-2024 00:26:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts/includes/related-data.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php:55
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(32): Hasan_Related_Post->load_classe()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(40): Hasan_Related_Post->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(61): Hasan_Related_Post::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 55
+[25-Dec-2024 00:26:25 UTC] PHP Warning:  require_once(C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts/includes/related-data.php): Failed to open stream: No such file or directory in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 55
+[25-Dec-2024 00:26:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts/includes/related-data.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php:55
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(32): Hasan_Related_Post->load_classe()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(40): Hasan_Related_Post->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(61): Hasan_Related_Post::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 55
+[25-Dec-2024 00:26:26 UTC] PHP Warning:  require_once(C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts/includes/related-data.php): Failed to open stream: No such file or directory in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 55
+[25-Dec-2024 00:26:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts/includes/related-data.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php:55
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(32): Hasan_Related_Post->load_classe()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(40): Hasan_Related_Post->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(61): Hasan_Related_Post::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 55
+[25-Dec-2024 00:26:26 UTC] PHP Warning:  require_once(C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts/includes/related-data.php): Failed to open stream: No such file or directory in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 55
+[25-Dec-2024 00:26:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts/includes/related-data.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php:55
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(32): Hasan_Related_Post->load_classe()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(40): Hasan_Related_Post->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(61): Hasan_Related_Post::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 55
+[25-Dec-2024 00:26:27 UTC] PHP Warning:  require_once(C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts/includes/related-data.php): Failed to open stream: No such file or directory in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 55
+[25-Dec-2024 00:26:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts/includes/related-data.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php:55
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(32): Hasan_Related_Post->load_classe()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(40): Hasan_Related_Post->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(61): Hasan_Related_Post::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 55
+[25-Dec-2024 00:26:27 UTC] PHP Warning:  require_once(C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts/includes/related-data.php): Failed to open stream: No such file or directory in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 55
+[25-Dec-2024 00:26:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts/includes/related-data.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php:55
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(32): Hasan_Related_Post->load_classe()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(40): Hasan_Related_Post->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(61): Hasan_Related_Post::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 55
+[25-Dec-2024 00:27:20 UTC] PHP Warning:  require_once(C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts/includes/related-data.php): Failed to open stream: No such file or directory in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 55
+[25-Dec-2024 00:27:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts/includes/related-data.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php:55
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(32): Hasan_Related_Post->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(40): Hasan_Related_Post->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(61): Hasan_Related_Post::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 55
+[25-Dec-2024 00:27:20 UTC] PHP Warning:  require_once(C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts/includes/related-data.php): Failed to open stream: No such file or directory in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 55
+[25-Dec-2024 00:27:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts/includes/related-data.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php:55
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(32): Hasan_Related_Post->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(40): Hasan_Related_Post->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(61): Hasan_Related_Post::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 55
+[25-Dec-2024 00:47:02 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 251674624 bytes) in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\includes\related_data.php on line 58
+[25-Dec-2024 00:47:11 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 251674624 bytes) in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\includes\related_data.php on line 58
+[25-Dec-2024 14:05:35 UTC] Automatic updates starting...
+[25-Dec-2024 14:05:36 UTC]   Automatic plugin updates starting...
+[25-Dec-2024 14:05:36 UTC]   Automatic plugin updates complete.
+[25-Dec-2024 14:05:37 UTC]   Automatic theme updates starting...
+[25-Dec-2024 14:05:37 UTC]   Automatic theme updates complete.
+[25-Dec-2024 14:05:37 UTC] Automatic updates complete.
+[25-Dec-2024 14:41:51 UTC] Automatic updates starting...
+[25-Dec-2024 14:41:52 UTC]   Automatic plugin updates starting...
+[25-Dec-2024 14:41:52 UTC]   Automatic plugin updates complete.
+[25-Dec-2024 14:41:52 UTC]   Automatic theme updates starting...
+[25-Dec-2024 14:41:52 UTC]   Automatic theme updates complete.
+[25-Dec-2024 14:41:52 UTC] Automatic updates complete.
+[25-Dec-2024 15:42:19 UTC] PHP Parse error:  syntax error, unexpected token "(" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 32

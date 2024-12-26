@@ -20,32 +20,32 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 class Hasan_Related_Post {
-    private static $instance;
+    private static $hasan;
 
     private function __construct() {
         $this->define_constants();
         $this->load_classes();
     }
 
-    public static function get_instance() {
-        if ( self::$instance ) {
-            return self::$instance;
+    public static function get_instace() {
+        if ( self::$hasan ) {
+            return self::$hasan;
         }
 
-        self::$instance = new self();
-        return self::$instance;
+        self::$hasan = new self();
+        return self::$hasan;
     }
 
     private function define_constants() {
-        define( 'HASAN_RELATIVE_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
+        define( 'HASAN_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
     }
 
     private function load_classes() {
-        require_once HASAN_RELATIVE_PLUGIN_PATH . 'includes/related_data.php';
+        require_once HASAN_PLUGIN_PATH . 'includes/related_data.php';
 
-          new HASAN_RP\Related_Post();
+          new HASAN_RELATED_POST\related_Post();
     }
 }
 
 // Initialize the plugin
-Hasan_Related_Post::get_instance();
+Hasan_Related_Post::get_instace();
