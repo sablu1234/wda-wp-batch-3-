@@ -42,7 +42,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     private function load_classes(){
         require_once HASAN_RELARED_PLUGIN . 'includes/related_data.php';
      
-        new HS_RELATED_POST\RELATED_POST_FRIST();
+        new HASAN_RP\Related_Post();
     }
  }
  hasan_plugin::get_instance();

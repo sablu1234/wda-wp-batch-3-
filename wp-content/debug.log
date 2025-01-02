@@ -984,3 +984,471 @@ Stack trace:
 [27-Dec-2024 04:03:42 UTC] PHP Parse error:  syntax error, unexpected token ")" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\includes\related_data.php on line 33
 [27-Dec-2024 04:03:42 UTC] PHP Parse error:  syntax error, unexpected token ")" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\includes\related_data.php on line 33
 [27-Dec-2024 04:04:04 UTC] PHP Parse error:  syntax error, unexpected token ")" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\includes\related_data.php on line 33
+[27-Dec-2024 08:34:46 UTC] PHP Fatal error:  Uncaught Error: Class "HS_RELATED_POST\RELATED_POST_FRIST" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php:45
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(27): hasan_plugin->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(35): hasan_plugin->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(48): hasan_plugin::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 45
+[27-Dec-2024 08:34:46 UTC] PHP Fatal error:  Uncaught Error: Class "HS_RELATED_POST\RELATED_POST_FRIST" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php:45
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(27): hasan_plugin->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(35): hasan_plugin->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(48): hasan_plugin::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 45
+[27-Dec-2024 08:34:51 UTC] PHP Fatal error:  Uncaught Error: Class "HS_RELATED_POST\RELATED_POST_FRIST" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php:45
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(27): hasan_plugin->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(35): hasan_plugin->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(48): hasan_plugin::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 45
+[27-Dec-2024 08:38:37 UTC] PHP Fatal error:  Uncaught Error: Class "HS_RELATED_POST\RELATED_POST_FRIST" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php:45
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(27): hasan_plugin->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(35): hasan_plugin->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(48): hasan_plugin::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 45
+[27-Dec-2024 08:38:37 UTC] PHP Fatal error:  Uncaught Error: Class "HS_RELATED_POST\RELATED_POST_FRIST" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php:45
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(27): hasan_plugin->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(35): hasan_plugin->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(48): hasan_plugin::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 45
+[27-Dec-2024 08:38:53 UTC] PHP Fatal error:  Uncaught Error: Class "HS_RELATED_POST\RELATED_POST_FRIST" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php:45
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(27): hasan_plugin->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(35): hasan_plugin->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(48): hasan_plugin::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php on line 45
+[27-Dec-2024 09:14:00 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\includes\related_data.php on line 9 and at least 2 expected in C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\includes\related_data.php(9): add_action('wp_enqueue_scri...')
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(45): HASAN_RP\Related_Post->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(27): hasan_plugin->load_classes()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(35): hasan_plugin->__construct()
+#4 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\Related-Posts\related-posts.php(48): hasan_plugin::get_instance()
+#5 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#8 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#9 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php on line 441
+[29-Dec-2024 13:56:36 UTC] Automatic updates starting...
+[29-Dec-2024 13:56:37 UTC]   Automatic plugin updates starting...
+[29-Dec-2024 13:56:37 UTC]   Automatic plugin updates complete.
+[29-Dec-2024 13:56:38 UTC]   Automatic theme updates starting...
+[29-Dec-2024 13:56:38 UTC]   Automatic theme updates complete.
+[29-Dec-2024 13:56:38 UTC] Automatic updates complete.
+[29-Dec-2024 14:43:33 UTC] Automatic updates starting...
+[29-Dec-2024 14:43:33 UTC]   Automatic plugin updates starting...
+[29-Dec-2024 14:43:33 UTC]   Automatic plugin updates complete.
+[29-Dec-2024 14:43:33 UTC]   Automatic theme updates starting...
+[29-Dec-2024 14:43:33 UTC]   Automatic theme updates complete.
+[29-Dec-2024 14:43:33 UTC] Automatic updates complete.
+[29-Dec-2024 17:53:40 UTC] PHP Parse error:  Unclosed '{' on line 9 in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 40
+[29-Dec-2024 17:54:41 UTC] PHP Parse error:  Unclosed '{' on line 9 in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 40
+[29-Dec-2024 17:54:44 UTC] PHP Parse error:  Unclosed '{' on line 9 in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 40
+[29-Dec-2024 17:54:46 UTC] PHP Parse error:  Unclosed '{' on line 9 in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 40
+[30-Dec-2024 00:46:47 UTC] PHP Fatal error:  Uncaught Error: Object of class AB_Three\Shortcode could not be converted to string in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Shortcode.php:12
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(103): AB_Three\Shortcode->__construct()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(30): Academy_Batch_Three->load_classes()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(42): Academy_Batch_Three->__construct()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(134): Academy_Batch_Three::get_instance()
+#4 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Shortcode.php on line 12
+[30-Dec-2024 00:47:32 UTC] PHP Fatal error:  Uncaught Error: Object of class AB_Three\Shortcode could not be converted to string in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Shortcode.php:12
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(103): AB_Three\Shortcode->__construct()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(30): Academy_Batch_Three->load_classes()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(42): Academy_Batch_Three->__construct()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(134): Academy_Batch_Three::get_instance()
+#4 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin.php(34): require_once('C:\\laragon\\www\\...')
+#8 C:\laragon\www\wda-wp-batch-3-\wp-admin\about.php(10): require_once('C:\\laragon\\www\\...')
+#9 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Shortcode.php on line 12
+[30-Dec-2024 00:47:47 UTC] PHP Fatal error:  Uncaught Error: Object of class AB_Three\Shortcode could not be converted to string in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Shortcode.php:12
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(103): AB_Three\Shortcode->__construct()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(30): Academy_Batch_Three->load_classes()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(42): Academy_Batch_Three->__construct()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(134): Academy_Batch_Three::get_instance()
+#4 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Shortcode.php on line 12
+[30-Dec-2024 15:24:17 UTC] Automatic updates starting...
+[30-Dec-2024 15:24:20 UTC]   Automatic plugin updates starting...
+[30-Dec-2024 15:24:20 UTC]   Automatic plugin updates complete.
+[30-Dec-2024 15:24:21 UTC]   Automatic theme updates starting...
+[30-Dec-2024 15:24:21 UTC]   Automatic theme updates complete.
+[30-Dec-2024 15:24:21 UTC] Automatic updates complete.
+[30-Dec-2024 15:31:02 UTC] PHP Fatal error:  Uncaught Error: Class "AB_Three\Enqueue" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php:55
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(28): Academy_Batch_Three->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(39): Academy_Batch_Three->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(68): Academy_Batch_Three::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php on line 55
+[30-Dec-2024 15:31:03 UTC] PHP Fatal error:  Uncaught Error: Class "AB_Three\Enqueue" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php:55
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(28): Academy_Batch_Three->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(39): Academy_Batch_Three->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(68): Academy_Batch_Three::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php on line 55
+[30-Dec-2024 15:31:13 UTC] PHP Fatal error:  Uncaught Error: Class "AB_Three\Enqueue" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php:55
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(28): Academy_Batch_Three->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(39): Academy_Batch_Three->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(68): Academy_Batch_Three::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php on line 55
+[30-Dec-2024 15:31:13 UTC] PHP Fatal error:  Uncaught Error: Class "AB_Three\Enqueue" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php:55
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(28): Academy_Batch_Three->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(39): Academy_Batch_Three->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(68): Academy_Batch_Three::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php on line 55
+[30-Dec-2024 15:31:15 UTC] PHP Fatal error:  Uncaught Error: Class "AB_Three\Enqueue" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php:55
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(28): Academy_Batch_Three->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(39): Academy_Batch_Three->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(68): Academy_Batch_Three::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php on line 55
+[30-Dec-2024 15:31:15 UTC] PHP Fatal error:  Uncaught Error: Class "AB_Three\Enqueue" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php:55
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(28): Academy_Batch_Three->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(39): Academy_Batch_Three->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(68): Academy_Batch_Three::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php on line 55
+[30-Dec-2024 15:31:17 UTC] PHP Fatal error:  Uncaught Error: Class "AB_Three\Enqueue" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php:55
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(28): Academy_Batch_Three->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(39): Academy_Batch_Three->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(68): Academy_Batch_Three::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php on line 55
+[30-Dec-2024 15:31:37 UTC] PHP Fatal error:  Uncaught Error: Class "AB_Three\Enqueue" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php:55
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(28): Academy_Batch_Three->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(39): Academy_Batch_Three->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(68): Academy_Batch_Three::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php on line 55
+[30-Dec-2024 15:31:46 UTC] PHP Fatal error:  Uncaught Error: Class "AB_Three\Enqueue" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php:55
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(28): Academy_Batch_Three->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(39): Academy_Batch_Three->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(68): Academy_Batch_Three::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php on line 55
+[31-Dec-2024 00:29:31 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 89
+[31-Dec-2024 00:29:59 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Post_Type.php on line 89
+[31-Dec-2024 01:04:51 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 39
+[31-Dec-2024 01:04:51 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/admin/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 42
+[31-Dec-2024 01:04:51 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 01:04:51 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 01:04:51 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 01:04:51 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 01:05:36 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 39
+[31-Dec-2024 01:05:36 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/admin/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 42
+[31-Dec-2024 01:05:36 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 01:05:37 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 01:05:37 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 01:05:37 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 01:08:49 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 39
+[31-Dec-2024 01:08:49 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/admin/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 42
+[31-Dec-2024 01:08:49 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 01:08:50 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 01:08:50 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 01:08:50 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 01:10:01 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 39
+[31-Dec-2024 01:10:01 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 42
+[31-Dec-2024 01:10:01 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 01:10:01 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 01:10:01 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 01:10:01 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:15:08 UTC] Automatic updates starting...
+[31-Dec-2024 14:15:09 UTC]   Automatic plugin updates starting...
+[31-Dec-2024 14:15:09 UTC]   Automatic plugin updates complete.
+[31-Dec-2024 14:15:10 UTC]   Automatic theme updates starting...
+[31-Dec-2024 14:15:11 UTC]   Automatic theme updates complete.
+[31-Dec-2024 14:15:11 UTC] Automatic updates complete.
+[31-Dec-2024 14:35:54 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 39
+[31-Dec-2024 14:35:54 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 42
+[31-Dec-2024 14:35:54 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:35:55 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:35:55 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:35:55 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:37:18 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 39
+[31-Dec-2024 14:37:18 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 42
+[31-Dec-2024 14:37:18 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:37:19 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:37:19 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:37:19 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:39:04 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 39
+[31-Dec-2024 14:39:04 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 42
+[31-Dec-2024 14:39:04 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:39:05 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:39:05 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:39:05 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:41:18 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 39
+[31-Dec-2024 14:41:18 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 42
+[31-Dec-2024 14:41:18 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:41:18 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:41:18 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:41:18 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:41:19 UTC] Automatic updates starting...
+[31-Dec-2024 14:41:21 UTC]   Automatic plugin updates starting...
+[31-Dec-2024 14:41:21 UTC]   Automatic plugin updates complete.
+[31-Dec-2024 14:41:21 UTC]   Automatic theme updates starting...
+[31-Dec-2024 14:41:21 UTC]   Automatic theme updates complete.
+[31-Dec-2024 14:41:21 UTC] Automatic updates complete.
+[31-Dec-2024 14:42:36 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 39
+[31-Dec-2024 14:42:36 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 42
+[31-Dec-2024 14:42:36 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:42:36 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:42:36 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:42:36 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:42:53 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 39
+[31-Dec-2024 14:42:53 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 42
+[31-Dec-2024 14:42:53 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:42:53 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:42:53 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:42:53 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:43:06 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 39
+[31-Dec-2024 14:43:06 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 42
+[31-Dec-2024 14:43:19 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:43:20 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:43:20 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:44:43 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 39
+[31-Dec-2024 14:44:43 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 42
+[31-Dec-2024 14:44:43 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:44:44 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:44:44 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:44:44 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:48:24 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 42
+[31-Dec-2024 14:48:24 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:48:25 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:48:25 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:48:25 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:48:27 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 42
+[31-Dec-2024 14:48:27 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:48:27 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:48:27 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:48:27 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:49:43 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:49:43 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 14:49:43 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets\frontend\shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 15:03:46 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 38
+[31-Dec-2024 15:03:46 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 41
+[31-Dec-2024 15:03:46 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:03:47 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:03:47 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:03:47 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:04:19 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 38
+[31-Dec-2024 15:04:19 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 41
+[31-Dec-2024 15:04:19 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:04:19 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:04:19 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:04:19 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:05:33 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 38
+[31-Dec-2024 15:05:33 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 41
+[31-Dec-2024 15:05:33 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:05:33 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:05:33 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:05:33 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:05:49 UTC] PHP Fatal error:  Uncaught Error: Class "AB_Three\Shortcode" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php:103
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(30): Academy_Batch_Three->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(42): Academy_Batch_Three->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(134): Academy_Batch_Three::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php on line 103
+[31-Dec-2024 15:05:49 UTC] PHP Fatal error:  Uncaught Error: Class "AB_Three\Shortcode" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php:103
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(30): Academy_Batch_Three->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(42): Academy_Batch_Three->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(134): Academy_Batch_Three::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php on line 103
+[31-Dec-2024 15:06:09 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 38
+[31-Dec-2024 15:06:09 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 41
+[31-Dec-2024 15:06:09 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:06:10 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:08:53 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 38
+[31-Dec-2024 15:08:53 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 41
+[31-Dec-2024 15:08:53 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:08:53 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:08:53 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:08:53 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:11:02 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 38
+[31-Dec-2024 15:11:02 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 41
+[31-Dec-2024 15:11:02 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 15:11:02 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 15:11:02 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 15:11:02 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 48
+[31-Dec-2024 15:11:29 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 38
+[31-Dec-2024 15:11:29 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 41
+[31-Dec-2024 15:11:29 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:11:30 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:11:30 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:11:30 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:11:30 UTC] PHP Warning:  filemtime(): stat failed for C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3/assets/frontend/shortcode.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\enqueue.php on line 50
+[31-Dec-2024 15:23:39 UTC] PHP Fatal error:  Uncaught Error: Class "AB_Three\Enqueue" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php:101
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(30): Academy_Batch_Three->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(42): Academy_Batch_Three->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(134): Academy_Batch_Three::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php on line 101
+[31-Dec-2024 15:25:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 6 and at least 2 expected in C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php(6): add_action('admin_enqueue')
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(101): AB_Three\Enqueue->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(30): Academy_Batch_Three->load_classes()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(42): Academy_Batch_Three->__construct()
+#4 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(134): Academy_Batch_Three::get_instance()
+#5 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#8 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#9 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php on line 441
+[31-Dec-2024 16:02:54 UTC] PHP Warning:  filemtime(): stat failed for http://wda-wp-batch-3-.test/wp-content/plugins/wedevs-academy-batch-3/assets/admin/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 14
+[31-Dec-2024 16:03:02 UTC] PHP Warning:  filemtime(): stat failed for http://wda-wp-batch-3-.test/wp-content/plugins/wedevs-academy-batch-3/assets/admin/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 14
+[31-Dec-2024 16:11:35 UTC] PHP Warning:  filemtime(): stat failed for http://wda-wp-batch-3-.test/wp-content/plugins/wedevs-academy-batch-3/assets/admin/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 14
+[31-Dec-2024 16:11:35 UTC] PHP Warning:  filemtime(): stat failed for http://wda-wp-batch-3-.test/wp-content/plugins/wedevs-academy-batch-3/assets/admin/main.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 20
+[31-Dec-2024 16:12:20 UTC] PHP Warning:  filemtime(): stat failed for http://wda-wp-batch-3-.test/wp-content/plugins/wedevs-academy-batch-3/assets/admin/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 14
+[31-Dec-2024 16:12:20 UTC] PHP Warning:  filemtime(): stat failed for http://wda-wp-batch-3-.test/wp-content/plugins/wedevs-academy-batch-3/assets/admin/main.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 20
+[31-Dec-2024 16:13:40 UTC] PHP Warning:  filemtime(): stat failed for http://wda-wp-batch-3-.test/wp-content/plugins/wedevs-academy-batch-3/assets/admin/main.js in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 14
+[31-Dec-2024 16:13:40 UTC] PHP Warning:  filemtime(): stat failed for http://wda-wp-batch-3-.test/wp-content/plugins/wedevs-academy-batch-3/assets/admin/main.css in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 20
+[31-Dec-2024 17:32:28 UTC] PHP Warning:  Undefined variable $main_css_path in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
+[31-Dec-2024 17:32:28 UTC] PHP Deprecated:  filemtime(): Passing null to parameter #1 ($filename) of type string is deprecated in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
+[31-Dec-2024 17:32:32 UTC] PHP Warning:  Undefined variable $main_css_path in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
+[31-Dec-2024 17:32:32 UTC] PHP Deprecated:  filemtime(): Passing null to parameter #1 ($filename) of type string is deprecated in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
+[31-Dec-2024 17:32:35 UTC] PHP Warning:  Undefined variable $main_css_path in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
+[31-Dec-2024 17:32:35 UTC] PHP Deprecated:  filemtime(): Passing null to parameter #1 ($filename) of type string is deprecated in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
+[31-Dec-2024 17:32:43 UTC] PHP Warning:  Undefined variable $main_css_path in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
+[31-Dec-2024 17:32:43 UTC] PHP Deprecated:  filemtime(): Passing null to parameter #1 ($filename) of type string is deprecated in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
+[31-Dec-2024 17:32:56 UTC] PHP Warning:  Undefined variable $main_css_path in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
+[31-Dec-2024 17:32:56 UTC] PHP Deprecated:  filemtime(): Passing null to parameter #1 ($filename) of type string is deprecated in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
+[31-Dec-2024 17:36:36 UTC] PHP Warning:  Undefined variable $main_css_path in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
+[31-Dec-2024 17:36:36 UTC] PHP Deprecated:  filemtime(): Passing null to parameter #1 ($filename) of type string is deprecated in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
+[01-Jan-2025 17:02:37 UTC] PHP Warning:  Undefined variable $main_css_path in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
+[01-Jan-2025 17:02:37 UTC] PHP Deprecated:  filemtime(): Passing null to parameter #1 ($filename) of type string is deprecated in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
+[01-Jan-2025 17:02:37 UTC] Cron reschedule event error for hook: recovery_mode_clean_expired_keys, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[01-Jan-2025 17:02:44 UTC] Automatic updates starting...
+[01-Jan-2025 17:02:45 UTC]   Automatic plugin updates starting...
+[01-Jan-2025 17:02:45 UTC]   Automatic plugin updates complete.
+[01-Jan-2025 17:02:45 UTC]   Automatic theme updates starting...
+[01-Jan-2025 17:02:45 UTC]   Automatic theme updates complete.
+[01-Jan-2025 17:02:45 UTC] Automatic updates complete.
+[01-Jan-2025 17:03:31 UTC] PHP Warning:  Undefined variable $main_css_path in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
+[01-Jan-2025 17:03:31 UTC] PHP Deprecated:  filemtime(): Passing null to parameter #1 ($filename) of type string is deprecated in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
+[01-Jan-2025 17:08:10 UTC] PHP Warning:  Undefined variable $main_css_path in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
+[01-Jan-2025 17:08:10 UTC] PHP Deprecated:  filemtime(): Passing null to parameter #1 ($filename) of type string is deprecated in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
