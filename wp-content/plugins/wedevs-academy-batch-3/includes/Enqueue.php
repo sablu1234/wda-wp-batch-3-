@@ -39,7 +39,7 @@ class Enqueue {
         }
 
         $shortcode_path = AB_THREE_PLUGIN_PATH . 'assets/frontend/shortcode.css';
-        wp_register_style( 'ab-three-shortcode', AB_THREE_PLUGIN_URL . 'assets/frontend/shortcode.css', array(), filemtime( $main_css_path ));
+        wp_register_style( 'ab-three-shortcode', AB_THREE_PLUGIN_URL . 'assets/frontend/shortcode.css', array(), filemtime( $shortcode_path ));
    
     }
 }

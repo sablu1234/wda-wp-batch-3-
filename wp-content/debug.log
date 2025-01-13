@@ -1452,3 +1452,177 @@ Stack trace:
 [01-Jan-2025 17:03:31 UTC] PHP Deprecated:  filemtime(): Passing null to parameter #1 ($filename) of type string is deprecated in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
 [01-Jan-2025 17:08:10 UTC] PHP Warning:  Undefined variable $main_css_path in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
 [01-Jan-2025 17:08:10 UTC] PHP Deprecated:  filemtime(): Passing null to parameter #1 ($filename) of type string is deprecated in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
+[02-Jan-2025 16:07:18 UTC] PHP Warning:  Undefined variable $main_css_path in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
+[02-Jan-2025 16:07:18 UTC] PHP Deprecated:  filemtime(): Passing null to parameter #1 ($filename) of type string is deprecated in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
+[02-Jan-2025 16:07:22 UTC] Automatic updates starting...
+[02-Jan-2025 16:07:23 UTC]   Automatic plugin updates starting...
+[02-Jan-2025 16:07:23 UTC]   Automatic plugin updates complete.
+[02-Jan-2025 16:07:23 UTC]   Automatic theme updates starting...
+[02-Jan-2025 16:07:23 UTC]   Automatic theme updates complete.
+[02-Jan-2025 16:07:23 UTC] Automatic updates complete.
+[02-Jan-2025 16:16:38 UTC] PHP Warning:  Undefined variable $main_css_path in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
+[02-Jan-2025 16:16:38 UTC] PHP Deprecated:  filemtime(): Passing null to parameter #1 ($filename) of type string is deprecated in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Enqueue.php on line 42
+[03-Jan-2025 03:05:39 UTC] Automatic updates starting...
+[03-Jan-2025 03:05:40 UTC]   Automatic plugin updates starting...
+[03-Jan-2025 03:05:40 UTC]   Automatic plugin updates complete.
+[03-Jan-2025 03:05:40 UTC]   Automatic theme updates starting...
+[03-Jan-2025 03:05:40 UTC]   Automatic theme updates complete.
+[03-Jan-2025 03:05:40 UTC] Automatic updates complete.
+[03-Jan-2025 04:14:41 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_filter(), 1 passed in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs_academy_batch_3\wedevs_academy_batch_3.php on line 15 and at least 2 expected in C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php:121
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs_academy_batch_3\wedevs_academy_batch_3.php(15): add_filter('')
+#1 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php on line 121
+[03-Jan-2025 04:17:32 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\wda-wp-batch-3-\wp-includes\formatting.php on line 5701
+[03-Jan-2025 14:42:05 UTC] Automatic updates starting...
+[03-Jan-2025 14:42:07 UTC]   Automatic plugin updates starting...
+[03-Jan-2025 14:42:07 UTC]   Automatic plugin updates complete.
+[03-Jan-2025 14:42:08 UTC]   Automatic theme updates starting...
+[03-Jan-2025 14:42:08 UTC]   Automatic theme updates complete.
+[03-Jan-2025 14:42:08 UTC] Automatic updates complete.
+[09-Jan-2025 16:29:35 UTC] Automatic updates starting...
+[09-Jan-2025 16:29:36 UTC]   Automatic plugin updates starting...
+[09-Jan-2025 16:29:36 UTC]   Automatic plugin updates complete.
+[09-Jan-2025 16:29:36 UTC]   Automatic theme updates starting...
+[09-Jan-2025 16:29:36 UTC]   Automatic theme updates complete.
+[09-Jan-2025 16:29:36 UTC] Automatic updates complete.
+[09-Jan-2025 17:31:25 UTC] PHP Warning:  include(shortcode-view): Failed to open stream: No such file or directory in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 13
+[09-Jan-2025 17:31:25 UTC] PHP Warning:  include(): Failed opening 'shortcode-view' for inclusion (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 13
+[09-Jan-2025 17:31:25 UTC] PHP Warning:  include(shortcode-view): Failed to open stream: No such file or directory in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 13
+[09-Jan-2025 17:31:25 UTC] PHP Warning:  include(): Failed opening 'shortcode-view' for inclusion (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 13
+[09-Jan-2025 17:31:37 UTC] PHP Warning:  include(shortcode-view): Failed to open stream: No such file or directory in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 13
+[09-Jan-2025 17:31:37 UTC] PHP Warning:  include(): Failed opening 'shortcode-view' for inclusion (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 13
+[09-Jan-2025 17:31:37 UTC] PHP Warning:  include(shortcode-view): Failed to open stream: No such file or directory in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 13
+[09-Jan-2025 17:31:37 UTC] PHP Warning:  include(): Failed opening 'shortcode-view' for inclusion (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 13
+[09-Jan-2025 17:31:52 UTC] PHP Warning:  include(shortcode-view): Failed to open stream: No such file or directory in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 13
+[09-Jan-2025 17:31:52 UTC] PHP Warning:  include(): Failed opening 'shortcode-view' for inclusion (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 13
+[09-Jan-2025 17:31:52 UTC] PHP Warning:  include(shortcode-view): Failed to open stream: No such file or directory in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 13
+[09-Jan-2025 17:31:52 UTC] PHP Warning:  include(): Failed opening 'shortcode-view' for inclusion (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 13
+[09-Jan-2025 17:31:58 UTC] PHP Warning:  include(shortcode-view): Failed to open stream: No such file or directory in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 13
+[09-Jan-2025 17:31:58 UTC] PHP Warning:  include(): Failed opening 'shortcode-view' for inclusion (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 13
+[09-Jan-2025 17:31:58 UTC] PHP Warning:  include(shortcode-view): Failed to open stream: No such file or directory in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 13
+[09-Jan-2025 17:31:58 UTC] PHP Warning:  include(): Failed opening 'shortcode-view' for inclusion (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 13
+[10-Jan-2025 00:08:27 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 15
+[10-Jan-2025 00:08:27 UTC] PHP Warning:  Undefined array key "style" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 15
+[10-Jan-2025 00:13:36 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 19
+[10-Jan-2025 00:13:36 UTC] PHP Warning:  Undefined array key "style" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 19
+[10-Jan-2025 00:13:36 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 19
+[10-Jan-2025 00:13:36 UTC] PHP Warning:  Undefined array key "style" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 19
+[10-Jan-2025 00:13:39 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 19
+[10-Jan-2025 00:13:39 UTC] PHP Warning:  Undefined array key "style" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 19
+[10-Jan-2025 00:13:39 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 19
+[10-Jan-2025 00:13:39 UTC] PHP Warning:  Undefined array key "style" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 19
+[10-Jan-2025 00:25:45 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 18
+[10-Jan-2025 00:25:45 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 18
+[10-Jan-2025 00:26:29 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 18
+[10-Jan-2025 00:26:31 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 18
+[10-Jan-2025 00:26:56 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 18
+[10-Jan-2025 00:27:04 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 18
+[10-Jan-2025 00:28:59 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 18
+[10-Jan-2025 00:29:23 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 18
+[10-Jan-2025 00:29:59 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 18
+[10-Jan-2025 00:30:33 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 19
+[10-Jan-2025 00:31:01 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 19
+[10-Jan-2025 00:31:03 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 19
+[10-Jan-2025 00:34:32 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 19
+[10-Jan-2025 00:34:37 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 19
+[10-Jan-2025 00:34:48 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 19
+[10-Jan-2025 00:35:28 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 19
+[10-Jan-2025 00:37:13 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 19
+[10-Jan-2025 00:37:40 UTC] PHP Warning:  Undefined array key "id" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode.php on line 19
+[10-Jan-2025 14:45:48 UTC] Automatic updates starting...
+[10-Jan-2025 14:45:49 UTC]   Automatic plugin updates starting...
+[10-Jan-2025 14:45:49 UTC]   Automatic plugin updates complete.
+[10-Jan-2025 14:45:50 UTC]   Automatic theme updates starting...
+[10-Jan-2025 14:45:50 UTC]   Automatic theme updates complete.
+[10-Jan-2025 14:45:50 UTC] Automatic updates complete.
+[10-Jan-2025 16:27:00 UTC] PHP Warning:  Undefined array key "" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode-view.php on line 17
+[10-Jan-2025 16:27:00 UTC] PHP Warning:  Undefined array key "" in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode-view.php on line 17
+[10-Jan-2025 16:31:03 UTC] PHP Warning:  Undefined array key "id  " in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode-view.php on line 2
+[10-Jan-2025 16:31:03 UTC] PHP Warning:  Undefined array key "id  " in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\shortcode-view.php on line 2
+[10-Jan-2025 16:50:10 UTC] PHP Fatal error:  Uncaught Error: Class "AB_Three\Enqueue" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php:103
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(30): Academy_Batch_Three->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(42): Academy_Batch_Three->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(137): Academy_Batch_Three::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php on line 103
+[10-Jan-2025 16:50:11 UTC] PHP Fatal error:  Uncaught Error: Class "AB_Three\Enqueue" not found in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php:103
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(30): Academy_Batch_Three->load_classes()
+#1 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(42): Academy_Batch_Three->__construct()
+#2 C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php(137): Academy_Batch_Three::get_instance()
+#3 C:\laragon\www\wda-wp-batch-3-\wp-settings.php(522): include_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-config.php(97): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wda-wp-batch-3-\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wda-wp-batch-3-\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\wedevs-academy-batch-3.php on line 103
+[11-Jan-2025 14:30:37 UTC] Automatic updates starting...
+[11-Jan-2025 14:30:38 UTC]   Automatic plugin updates starting...
+[11-Jan-2025 14:30:38 UTC]   Automatic plugin updates complete.
+[11-Jan-2025 14:30:38 UTC]   Automatic theme updates starting...
+[11-Jan-2025 14:30:38 UTC]   Automatic theme updates complete.
+[11-Jan-2025 14:30:38 UTC] Automatic updates complete.
+[11-Jan-2025 14:41:40 UTC] Automatic updates starting...
+[11-Jan-2025 14:41:41 UTC]   Automatic plugin updates starting...
+[11-Jan-2025 14:41:41 UTC]   Automatic plugin updates complete.
+[11-Jan-2025 14:41:41 UTC]   Automatic theme updates starting...
+[11-Jan-2025 14:41:41 UTC]   Automatic theme updates complete.
+[11-Jan-2025 14:41:41 UTC] Automatic updates complete.
+[12-Jan-2025 14:42:45 UTC] Automatic updates starting...
+[12-Jan-2025 14:42:46 UTC]   Automatic plugin updates starting...
+[12-Jan-2025 14:42:46 UTC]   Automatic plugin updates complete.
+[12-Jan-2025 14:42:46 UTC]   Automatic theme updates starting...
+[12-Jan-2025 14:42:46 UTC]   Automatic theme updates complete.
+[12-Jan-2025 14:42:46 UTC] Automatic updates complete.
+[12-Jan-2025 15:29:36 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class AB_Three\Admin_Settings does not have a method "admin_menu" in C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\laragon\www\wda-wp-batch-3-\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\laragon\www\wda-wp-batch-3-\wp-admin\includes\menu.php(161): do_action('admin_menu', '')
+#3 C:\laragon\www\wda-wp-batch-3-\wp-admin\menu.php(412): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\wda-wp-batch-3-\wp-admin\admin.php(158): require('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wda-wp-batch-3-\wp-admin\about.php(10): require_once('C:\\laragon\\www\\...')
+#6 {main}
+  thrown in C:\laragon\www\wda-wp-batch-3-\wp-includes\class-wp-hook.php on line 324
+[12-Jan-2025 15:34:56 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[12-Jan-2025 15:35:13 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[12-Jan-2025 15:35:55 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[12-Jan-2025 15:36:01 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[12-Jan-2025 15:37:04 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[12-Jan-2025 15:37:07 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[12-Jan-2025 15:37:14 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[12-Jan-2025 15:37:16 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[12-Jan-2025 15:37:23 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[12-Jan-2025 15:37:26 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[12-Jan-2025 15:37:38 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[12-Jan-2025 15:37:56 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[12-Jan-2025 15:37:57 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[12-Jan-2025 15:37:59 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[12-Jan-2025 15:37:59 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[12-Jan-2025 15:38:00 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[12-Jan-2025 15:38:00 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[12-Jan-2025 15:38:12 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[12-Jan-2025 15:38:14 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[12-Jan-2025 15:38:38 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[12-Jan-2025 15:39:10 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[12-Jan-2025 15:39:14 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[12-Jan-2025 15:39:32 UTC] PHP Notice:  Function add_menu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_menu_page()</code> should be numeric representing menu position. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.0.0.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[13-Jan-2025 00:33:51 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Admin_Settings.php on line 67
+[13-Jan-2025 00:38:34 UTC] PHP Warning:  Undefined variable $post_array in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Admin_Settings.php on line 55
+[13-Jan-2025 00:39:35 UTC] PHP Warning:  Undefined variable $post_array in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Admin_Settings.php on line 55
+[13-Jan-2025 01:12:33 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in C:\laragon\www\wda-wp-batch-3-\wp-content\plugins\wedevs-academy-batch-3\includes\Admin_Settings.php on line 90
+[13-Jan-2025 15:42:44 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[13-Jan-2025 15:42:44 UTC] PHP Warning:  wp_update_plugins(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
+[13-Jan-2025 15:42:44 UTC] PHP Warning:  wp_update_themes(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\laragon\www\wda-wp-batch-3-\wp-includes\functions.php on line 6085
